@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ padding: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.flashcard{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.flashcard div{
+  border: 1px solid #e7e7e7;
+  border-radius: 7px;
+  display: flex;
+  /* background-color: #f7f7f7; */
+  aspect-ratio: 2/1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+
+}
+
+.selected{
+  background-color: rgb(226, 155, 155);
+  color: rgb(45, 31, 31);
+
+}
+.unselected{
+  background-color: #f7f7f7; 
+}
+
+.heading{
+  /* margin: 20px; */
+  padding: 20px;
+  color: rgb(219, 54, 54);
+  font-weight: 400;
+
+
+
+}
